@@ -23,3 +23,6 @@ gcode:
             s.temperature,
             s.humidity))}
 ```
+
+I have also included a circuit python script to give the option to use the Btt panda sense on a rp2040-zero (it should work with a pico too. it can also have pins changed to work with other rp2040 based boards.)
+
