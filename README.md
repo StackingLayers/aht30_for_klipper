@@ -25,7 +25,7 @@ gcode:
 ```
 Be aware that this is not an official klipper module so adding the file will make the klipper version report as "dirty". All this means is that there is a file or modification that is not matching the main source code of klipper. Nothing is being installed in the background of your system and simply deleting the aht30.py file and the added text in the temperature_sensors.cfg will completely remove it from your system if you choose to not have it.
 
-#Note for wireing:
+# Note for wireing:
 The aht30 can technically be ran on 5V, but it is important to keep in mind that most mcus use 3.3v for logic level communication. If you power with 5v then the i2c output will also be 5v and this can potentially damage the microcontroller if it's not 5v tolerant. It is best to power it with 3.3V either by a dedicated 3.3V pin or using a 3.3V voltage regulator.
 
 # Bonus circuit python script 
