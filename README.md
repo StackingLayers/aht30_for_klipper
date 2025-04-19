@@ -24,5 +24,11 @@ gcode:
             s.humidity))}
 ```
 
-I have also included a circuit python script to give the option to use the Btt panda sense on a rp2040-zero (it should work with a pico too. it can also have pins changed to work with other rp2040 based boards.)
+# Bonus circuit python script 
+I have also included a circuit python script to give the option to use the Btt panda sense on a rp2040-zero (it should work with a pico too. it can also have pins changed to work with other rp2040 based boards.) This will output the temp and humidity to a serial console.
 
+[Panda sense on circuit py_code.py](https://github.com/StackingLayers/aht30_for_klipper/blob/main/Panda%20sense%20on%20circuit%20py_code.py) 
+Just remame it to code.py and drop it into the circuit python directory. 
+
+# Show your support if you like my work.
+Help support my work and use my affiliate link to [get your own Panda Sense here](https://shareasale.com/r.cfm?b=1890927&u=3691202&m=118144&urllink=biqu%2Eequipment%2Fproducts%2Fbigtreetech%2Dpanda%2Dsense%2Ddurable%2Dpp%2Dshell%2Dmagnetic%2Dplug%2Dplay%2Dhigh%2Dprecision%2Dtemperature%2Dhumidity%2Dsensing%2Dpanda%2Dtouch%2Dreal%2Dtime%2Ddisplay%2Dbambu%2Dlab%2D3d%2Dprinter%3Fgad%5Fsource%3D1%26gclid%3DCjwKCAjwk43ABhBIEiwAvvMEBzR6C1FiP0YVMUUN%5FxnPQRoo8X56S5ztux7C4o3u4FyCdWL2dd1zshoCuzIQAvD%5FBwE&afftrack=Panda%20sense)  => short link => http://shrsl.com/4vsrl
