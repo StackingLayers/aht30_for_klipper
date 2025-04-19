@@ -23,6 +23,7 @@ gcode:
             s.temperature,
             s.humidity))}
 ```
+Be aware that this is not an official klipper module so adding the file will make the klipper version report as "dirty". All this means is that there is a file or modification that is not matching the main source code of klipper. Nothing is being installed in the background of your system and simply deleting the aht30.py file and the added text in the temperature_sensors.cfg will completely remove it from your system if you choose to not have it.
 
 # Bonus circuit python script 
 I have also included a circuit python script to give the option to use the Btt panda sense on a rp2040-zero (it should work with a pico too. it can also have pins changed to work with other rp2040 based boards.) This will output the temp and humidity to a serial console.
